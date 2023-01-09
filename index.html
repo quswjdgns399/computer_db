@@ -1,0 +1,435 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Do you want to buy computer?</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-plot-listing.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+<!--
+
+TemplateMo 564 Plot Listing
+
+https://templatemo.com/tm-564-plot-listing
+
+-->
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <!--<a href="index.html" class="logo">--> <!--왼쪽 plot로고-->
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li><a href="index.html" class="active">Home</a></li>
+              <!--<li><a href="category.html">Category</a></li>-->
+              <li><a href="listing.html">COMPUTER</Canvas></a></li>
+              <li><a href="contact.html">Contact Us</a></li> 
+              <li><div class="main-white-button"><!--<a href="#"><i class="fa fa-plus"></i>Add Your Listing</a></div></li>-->
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="top-text header-text">
+            <h3>Do you want to buy computer?</h3>
+            <h2>당신의 컴퓨터를 맞춰드립니다.</h2>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <form id="search-form" name="gs" method="submit" role="search" action="#">
+            <div class="row">
+              <div class="col-lg-3 align-self-center">
+                  <fieldset>
+                      <script>
+                        function updatePriceOptions() {
+                          // Get the value of the "용도" select field
+                          var purpose = document.getElementById("chooseCategory").value;
+                          var GBSelect = document.getElementById("GBSelect");
+                          GBSelect.innerHTML = "";
+                    
+                      
+                          // Get the "가격" select field
+                          var priceSelect = document.getElementById("priceSelect");
+                      
+                          // Clear the existing options
+                          priceSelect.innerHTML = "";
+                          if (purpose == "사무용") {
+                            GBSelect.innerHTML = "<option value='용량'>용량</option><option value='256GB'>256GB</option><option value='512GB'>512GB</option><option value='1TB'>1TB</option>";
+                          } else if (purpose == "게이밍용") {
+                            GBSelect.innerHTML = "<option value='용량'>용량</option><option value='256GB'>256GB</option><option value='512GB'>512GB</option><option value='1TB'>1TB</option>";
+                          }
+                      
+                          // Set the options based on the chosen purpose
+                          if (purpose == "사무용") {
+                            priceSelect.innerHTML = "<option value='가격'>가격</option><option value='30만원 - 50만원'>30만원 - 50만원</option><option value='50만원 - 70만원'>50만원 - 70만원</option><option value='70만원 - 100만원'>70만원 - 100만원</option>";
+                          } else if (purpose == "게이밍용") {
+                            priceSelect.innerHTML = "<option value='가격'>가격</option><option value='30만원 - 50만원'>30만원 - 50만원</option><option value='50만원 - 70만원'>50만원 - 70만원</option><option value='70만원 - 100만원'>70만원 - 100만원</option><option value='100만원 - 120만원'>100만원 - 120만원</option><option value='120만원 - 150만원'>120만원 - 150만원</option>";
+                          }
+                        }
+                      </script>
+                      <select name="area" class="form-select" aria-label="Area" id="chooseCategory" onchange="updatePriceOptions()">
+                        <option selected>용도</option>
+                        <option value="사무용">사무용</option>
+                        <option value="게이밍용">게이밍용</option>
+                      </select>
+                    </fieldset>
+                </div>
+                <div class="col-lg-3 align-self-center">
+                  <select name="price" class="form-select" aria-label="Default select example" id="GBSelect">
+                    <option selected>용량</option>
+                  </select>
+                </div>
+                <div class="col-lg-3 align-self-center">
+                  <select name="price" class="form-select" aria-label="Default select example" id="priceSelect">
+                    <option selected>가격</option>
+                  </select>
+                </div>
+              <div class="col-lg-3">                        
+                  <fieldset>
+                    <button class="main-button" onClick="updatePriceOptions()"><i class="fa fa-search"></i> Search Now</button>
+                  </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+        </div-->
+      </div>
+    </div>
+  </div>
+
+
+ 
+
+
+  <div class="recent-listing">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h2>COMPUTER</h2>
+            <h6>product</h6>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-listing">
+            <div class="item">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="listing-item">
+                    <div class="left-image">
+                      <a href="#"><img src="assets/images/INTEL.JFIF" alt=""></a>
+                    </div>
+                    <div class="right-content align-self-center">
+                      <a href="#"><h4>INTEL</h4></a>
+                      <!--<h6>by: Sale Agent</h6>-->
+                      <ul class="rate">
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li>(18) Reviews</li>
+                      </ul>
+                      <!--<span class="price"><div class="icon"><img src="assets/images/listing-icon-01.png" alt=""></div> max : i9-12900K</span>-->
+                      <span class="details">Details : <em>CPU</em></span>
+                      <span class="details">MAX : <em>i9-12900K</em></span>
+                      <span class="details">코어 : <em>8 + 8 core</em></span>
+                      <span class="details">클럭 : <em>3.2GHz</em></span>
+                      <!--<ul class="info">
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> 코어 : 8+8 core</li>
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> 클럭 : 3.2GHz</li>
+                      </ul>-->
+                      <div class="main-white-button">
+                        <!--<a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+                <div class="col-lg-12">
+                  <div class="listing-item">
+                    <div class="left-image">
+                      <a href="#"><img src="assets/images/AMD.PNG" alt=""></a>
+                    </div>
+                    <div class="right-content align-self-center">
+                      <a href="#"><h4>AMD</h4></a>
+                      <!--<h6>by: Best Property</h6>-->
+                      <ul class="rate">
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li>(36) Reviews</li>
+                      </ul>
+                      <!--<span class="price"><div class="icon"><img src="assets/images/listing-icon-01.png" alt=""></div> $1,500 - $3,600 / month with taxes</span>-->
+                      <span class="details">Details : <em>CPU</em></span>
+                      <span class="details">MAX : <em>AMD RYZEN 7000</em></span>
+                      <span class="details">코어 : <em>16core</em></span>
+                      <span class="details">클럭 : <em>4.5GHz</em></span>
+                      <!--<ul class="info">
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> 8GB</li>
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> 16GB</li>
+                      </ul>-->
+                      <div class="main-white-button">
+                        <!--<a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="listing-item">
+                    <div class="left-image">
+                      <a href="#"><img src="assets/images/GeForce.jpg" alt=""></a>
+                    </div>
+                    <div class="right-content align-self-center">
+                      <a href="#"><h4>GEFORCE</h4></a>
+                      <!--<h6>by: Sale Agent</h6>-->
+                      <ul class="rate">
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li>(24) Reviews</li>
+                      </ul>
+                      <!--<span class="price"><div class="icon"><img src="assets/images/listing-icon-01.png" alt=""></div> $3,600 / month with taxes</span>-->
+                      <span class="details">Details : <em>GRAPIC CARD</em></span>
+                      <span class="details">MAX : <em>RTX 4090 24GB</em></span>
+                      <span class="details">출시일 : <em>22년 10월</em></span>
+                      <!--<ul class="info">
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> 5 Bedrooms</li>
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> 3 Bathrooms</li>
+                      </ul>-->
+                      <div class="main-white-button">
+                        <!--<a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-lg-12">
+                  <div class="listing-item">
+                    <div class="left-image">
+                      <a href="#"><img src="assets/images/Asus.jpg" alt=""></a>
+                    </div>
+                    <div class="right-content align-self-center">
+                      <a href="#"><h4>ASUS</h4></a>
+                      <!--<h6>by: Sale Agent</h6>-->
+                      <ul class="rate">
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li>(40) Reviews</li>
+                      </ul>
+                      <!--<span class="price"><div class="icon"><img src="assets/images/listing-icon-01.png" alt=""></div> $3,850 / month with taxes</span>-->
+                      <span class="details">Details : <em>MAINBOARD</em></span>
+                      <!--<ul class="info">
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> 4 Bedrooms</li>
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> 3 Bathrooms</li>
+                      </ul>-->
+                      <div class="main-white-button">
+                        <!--<a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="listing-item">
+                    <div class="left-image">
+                      <a href="#"><img src="assets/images/ASRock.PNG" alt=""></a>
+                    </div>
+                    <div class="right-content align-self-center">
+                      <a href="#"><h4>ASRock</h4></a>
+                      <!--<h6>by: Sale Agent</h6>-->
+                      <ul class="rate">
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li>(24) Reviews</li>
+                      </ul>
+                      <!--<span class="price"><div class="icon"><img src="assets/images/listing-icon-01.png" alt=""></div> $5,450 / month with taxes</span>-->
+                      <span class="details">Details : <em>MAINBOARD</em></span>
+                      <!--<ul class="info">
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> 8 Bedrooms</li>
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> 5 Bathrooms</li>
+                      </ul>-->
+                      <div class="main-white-button">
+                        <!--<a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="listing-item">
+                    <div class="left-image">
+                      <a href="#"><img src="assets/images/Biostar.png" alt=""></a>
+                    </div>
+                    <div class="right-content align-self-center">
+                      <a href="#"><h4>Biostar</h4></a>
+                      <!--<h6>by: Sale Agent</h6>-->
+                      <ul class="rate">
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li>(15) Reviews</li>
+                      </ul>
+                      <!--<span class="price"><div class="icon"><img src="assets/images/listing-icon-01.png" alt=""></div> $5,520 / month with taxes</span>-->
+                      <span class="details">Details : <em>MAINBOARD</em></span>
+                      <!--<ul class="info">
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> 5 Bedrooms</li>
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> 4 Bathrooms</li>
+                      </ul>-->
+                      <div class="main-white-button">
+                        <!--<a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="about">
+            <div class="logo">
+              <img src="assets/images/bonchae.jpg" alt="Plot Listing">
+            </div>
+            <p>If you consider that buying Computer is useful for your website, please spread the word around.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="helpful-links">
+            <h4>Made By</h4>
+            <div class="row">
+              <div class="col-lg-6 col-sm-6">
+                <ul>
+                  <li><a href="조장">조장</a></li>
+                  <li><a href="조원">조원</a></li>
+                  <li><a href="조원">조원</a></li>
+                  <li><a href="조원">조원</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><a href="변정훈">변정훈</a></li>
+                  <li><a href="채현명">채현명</a></li>
+                  <li><a href="김윤오">김윤오</a></li>
+                  <li><a href="김민석">김민석</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="contact-us">
+            <h4>Contact Us</h4>
+            <p>31th Street of Pilmoon Daero, Chosun university</p>
+            <div class="row">
+              <div class="col-lg-6">
+                <a href="#">010-0000-0000</a>
+              </div>
+              <div class="col-lg-6">
+                <a href="#">062-00-0000</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="sub-footer">
+            <p>Copyright © 2021 Plot Listing Co., Ltd. All Rights Reserved.
+            <br>
+			Design: <a rel="nofollow" href="https://templatemo.com" title="CSS Templates">TemplateMo</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+
+</body>
+
+</html>
